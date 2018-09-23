@@ -19,6 +19,7 @@ public class RandomWalk {
 
         return sum/trials;
     }
+
     private static void displayTableOfExpectedDistancesUpTo(int maxNumSteps) {
         System.out.println("Num steps \t Expected end distance");
         for (int steps = 1; steps <= maxNumSteps; steps++) {
